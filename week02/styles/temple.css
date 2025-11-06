@@ -46,7 +46,8 @@ section p{
   margin: 10px; 
 }
 
-ul { margin: 10px 20px 0 20px;
+ul { 
+  margin: 10px 20px;
 }
 
 footer {
