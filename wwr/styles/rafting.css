@@ -1,18 +1,23 @@
 :root{ --primary-color: #0f0f0f;
    --secondary-color: #e32;
-   --heading-font: "Georgia"serif;
+   --heading-font:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   --body-font:  'Courier New', Courier, monospace;
+
+
   
 }
 
 *{
 margin: 0;
 padding: 0;
-box-sizing: border-box;}
+box-sizing: border-box;
+}
 
 
 body{
-font-family: var(--heading-font);
-color: var(--secondary-color);}
+font : var(--body-font);
+color: var(--secondary-color);
+}
 
 
 header, main, footer{
@@ -21,7 +26,7 @@ margin: 0 auto;}
 
 
 h1, h2 {
-font-family: var(--heading-font);
+font: var(--heading-font);
 color: var(--primary-color);
 text-align: center;}
 
