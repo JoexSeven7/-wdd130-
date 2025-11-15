@@ -2,8 +2,7 @@
    --secondary-color: rgb(7, 111, 114);
    --heading-font:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
    --body-font:  'Courier New', Courier, monospace;
-
-
+   --main-background: #cfd5d7;
   
 }
 
@@ -17,12 +16,18 @@ box-sizing: border-box;
 body{
 font-family : var(--body-font);
 color: var(--secondary-color);
+background-color: var(--main-background);
 }
 
 
 header, main, footer{
 width: 840px;
 margin: 0 auto;}
+
+.headerlogo{
+width: 50px;
+border-radius: 10px;
+margin: 10px;}
 
 
 h1, h2 {
@@ -43,7 +48,8 @@ position: relative;}
 .hero img {
 display: block;
 width: 100%;
-height: auto;}
+height: auto;
+border-radius: 10px;}
 
 .hero h1 {
 position: absolute;
@@ -60,6 +66,7 @@ position: absolute;
 background-color: rgba(119, 104, 39, 0.8) ;
 color: antiquewhite;
 bottom: 10px;
+border-radius: 5px;
 
 }
 .hero article img {
@@ -71,5 +78,5 @@ margin: 10px;
 .social{
 width: 32px;
 height: 32px;
-margin: 0 px;
+margin: 0px;
 display: inline-block;}
