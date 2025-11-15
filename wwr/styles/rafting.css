@@ -1,5 +1,5 @@
 :root{ --primary-color: #0f0f0f;
-   --secondary-color: #e32;
+   --secondary-color: rgb(235, 142, 3);
    --heading-font:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
    --body-font:  'Courier New', Courier, monospace;
 
@@ -53,7 +53,7 @@ padding: 16px;
 text-align: center;
 opacity: 0.7;
 background-color: var(--secondary-color);
-color: antiquewhite;}
+color: rgb(255, 255, 255);}
 
 article{
 position: absolute;
