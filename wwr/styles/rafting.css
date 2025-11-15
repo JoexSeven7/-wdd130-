@@ -1,0 +1,37 @@
+:root{ --primary-color: #ffff;
+   --secondary-color: #e32;
+   --heading-font: "Georgia"serif;
+   --body-font: Arial, Helvetica;
+}
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;}
+
+
+body{
+font-family: var(--heading-font);
+color: var(--secondary-color);}
+header, main, footer{
+width: 840px;
+margin: 0 auto;}
+
+
+h1, h2 {
+font-family: var(--heading-font);
+color: var(--primary-color);}
+
+nav, p, section, article {
+margin: 16px;
+padding: 8px;}
+
+.socialmedia a{
+text-decoration: none;}
+.hero{
+position: relative;}
+
+.hero img {
+display: block;
+width: 100%;
+height: auto;}
