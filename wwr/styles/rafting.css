@@ -62,3 +62,9 @@ float: right;
 width: 200px;
 margin: 10px;
 }
+
+.social{
+width: 32px;
+height: 32px;
+margin: 0 px;
+display: inline-block;}
