@@ -55,7 +55,7 @@ opacity: 0.7;
 background-color: var(--secondary-color);
 color: rgb(255, 255, 255);}
 
-article{
+.hero article{
 position: absolute;
 background-color: rgba(119, 104, 39, 0.8) ;
 color: antiquewhite;
