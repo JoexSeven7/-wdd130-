@@ -126,14 +126,14 @@ display: flex;
     
     .history-content {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr; /* Two equal columns */
+        grid-template-columns: 1fr 1fr 1fr;
         gap: 20px;
         align-items: center;
         margin-top: 20px;
     }
     
     .history-content img {
-        width: 100%; /* Makes image responsive */
+        width: 100%;
         border-radius: 8px;
         box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     }
@@ -141,13 +141,13 @@ display: flex;
 
     figure {
         margin: 0;
-        width: 18%; /* roughly 100% / 5 */
+        width: 18%; 
     }
     
     figure img {
         width: 100%;
         height: auto;
-        background-color: #e0e0e0; /* Grey placeholder */
+        background-color: #e0e0e0; 
     }
     
     figcaption {
@@ -157,7 +157,7 @@ display: flex;
 
     .gallery {
         display: flex;
-        justify-content: space-between; /* Spreads the 5 images evenly */
+        justify-content: space-between; 
         gap: 10px;
         margin-top: 20px;}
 
