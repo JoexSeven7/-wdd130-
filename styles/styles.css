@@ -15,19 +15,30 @@ box-sizing: border-box;
 
 
 nav{background-color:var(--background-color);
-padding: 10px;}
+padding: 10px;
+display: flex;
+justify-content: space-evenly;
+align-items: center;}
 
 nav a{
 color: white;
 display: block;
-padding: 20px;}
+padding: 20px;
+text-decoration: none;
+font-size: 1.2rem;
+font-weight: 700;
+}
 
 h1{
-color:var(--text-color)}
+color:var(--text-color);
+border-bottom:1px solid #000;
+}
+
+
 main img{
 width: 150px;
 height: auto;
-border: 1px solid black;
+border: 1px gray solid;
 padding: 2px;
 box-shadow: 0 0 30px gray;}
 
@@ -43,20 +54,26 @@ color: #333;
 background-color:#eee;}
 
 main{
-max-width: 840px;
-margin: 20px;}
-aside{  
- width: 20rem;
- text-align: var(--text-align);
-}
 
-aside h2{
-position: relative;
+margin: 20px;
+grid-column: 2/3;
+margin: 1rem;}
 
-}
 
 main img {
 float: right;}
+
+aside{  
+    width: 20rem;
+    text-align: var(--text-align);
+    
+    position: relative;
+    grid-column: 1/2;
+    grid-row: 1/2;
+   }
+   
+   aside h2{
+   position: relative;}
 
 aside img{width: 200px;
 height: auto;}
@@ -67,3 +84,21 @@ footer{
   text-align: var(--text-align);
 }
 
+header, footer, .grid{
+max-width: 840;
+margin: auto;
+}
+
+.grid {
+    display: grid;
+    align-items: center;
+  }
+      
+
+      
+  aside {
+    width: 20rem;
+    position: relative;
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }

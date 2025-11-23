@@ -5,6 +5,11 @@ body {
 
 nav {
     background-color: #36454f;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    place-items: justify;
 }
 
 nav ul {

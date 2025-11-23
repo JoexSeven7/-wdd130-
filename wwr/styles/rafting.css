@@ -1,4 +1,4 @@
-:root{ --primary-color: #0f0f0f;
+:root{ --primary-color: #ffffff;
    --secondary-color: rgb(7, 111, 114);
    --heading-font:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
    --body-font:  'Courier New', Courier, monospace;
@@ -21,13 +21,41 @@ background-color: var(--main-background);
 
 
 header, main, footer{
-width: 840px;
+width: 1000px;
 margin: 0 auto;}
 
+
+nav a {
+    text-decoration: none; 
+    color: black;
+    justify-self: end;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    padding: 8px 30px;
+    margin-left: 20px; 
+}
+
+nav ul {
+    display: flex;
+    list-style: none; 
+    margin: 0;
+    padding: 0;
+    justify-items: right;
+
+}
 .headerlogo{
 width: 50px;
 border-radius: 10px;
 margin: 10px;}
+
+header {
+    margin: 1rem auto;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+   padding: 1rem 2rem;
+}
 
 
 h1, h2 {
@@ -40,7 +68,8 @@ margin: 16px;
 padding: 8px;}
 
 .socialmedia a{
-text-decoration: none;}
+text-decoration: none;
+}
 
 .hero {
 position: relative;}
@@ -80,3 +109,57 @@ width: 32px;
 height: 32px;
 margin: 0px;
 display: inline-block;}
+
+
+.socialmedia{
+display: flex; 
+    justify-content: flex-end; 
+    gap: 15px; }
+
+
+
+    .history {
+        background-color: rgba(96, 134, 0, 0.593);
+        text-align: center;
+        position: relative;
+    color: white;}
+    
+    .history-content {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr; /* Two equal columns */
+        gap: 20px;
+        align-items: center;
+        margin-top: 20px;
+    }
+    
+    .history-content img {
+        width: 100%; /* Makes image responsive */
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+
+    figure {
+        margin: 0;
+        width: 18%; /* roughly 100% / 5 */
+    }
+    
+    figure img {
+        width: 100%;
+        height: auto;
+        background-color: #e0e0e0; /* Grey placeholder */
+    }
+    
+    figcaption {
+        margin-top: 5px;
+        font-size: 0.9rem;
+    }
+
+    .gallery {
+        display: flex;
+        justify-content: space-between; /* Spreads the 5 images evenly */
+        gap: 10px;
+        margin-top: 20px;}
+
+
+        

@@ -69,3 +69,22 @@ code {
     font-size: smaller;
     padding: 0.5em;
 }
+
+/* Step 8: Layout the 5 images horizontally */
+.gallery {
+    display: flex;
+    flex-wrap: wrap; /* Allows images to wrap on smaller screens */
+    justify-content: space-between; /* Spaces them evenly */
+    gap: 10px; /* Adds space between images */
+}
+
+figure {
+    width: 18%; /* roughly 100% divided by 5, minus some gap space */
+    margin: 0; /* Resets browser default margin on figures */
+    text-align: center;
+}
+
+figure img {
+    width: 100%; /* Ensures image fits the figure container */
+    height: auto;
+}
