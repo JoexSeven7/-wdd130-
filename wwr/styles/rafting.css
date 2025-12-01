@@ -114,7 +114,7 @@ display: inline-block;}
 .socialmedia{
 display: flex; 
     justify-content: flex-end; 
-    gap: 15px; }
+    gap: 1px; }
 
 
 
@@ -162,4 +162,129 @@ display: flex;
         margin-top: 20px;}
 
 
+        .company-info {
+            text-align: center;
+            margin: 2rem 0;
+        }
         
+        .address-block p {
+            line-height: 1.6;
+            font-size: 1.1rem;
+        }
+        
+       
+        .contact-grid {
+            display: grid;
+           
+            grid-template-columns: 1fr 1fr; 
+            gap: 2rem;
+            max-width: 1000px;
+            margin: 0 auto 3rem auto; 
+            padding: 0 1rem;
+        }
+        
+     
+        .map-container iframe {
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            min-height: 450px; 
+            border: none;
+        }
+        
+     
+        .contact-form fieldset {
+            border: none;
+            border-radius: 8px;
+            padding: 1.5rem;
+            background-color: #f9f9f9;
+        }
+        
+        .contact-form legend {
+            font-weight: bold;
+            padding: 0 10px;
+            color: #333;
+        }
+        
+        .form-item {
+            margin-bottom: 1.2rem;
+            display: flex;
+            flex-direction: column; 
+        }
+        
+        .form-item label {
+            font-weight: bold;
+            margin-bottom: 0.5rem;
+        }
+        
+        .form-item input[type="text"],
+        .form-item input[type="email"],
+        .form-item textarea {
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-family: inherit;
+        }
+        
+        
+        .radio-group label, 
+        .checkbox-group label {
+            display: block;
+            font-weight: normal;
+            margin-bottom: 0.3rem;
+            cursor: pointer;
+        }
+        
+        .checkbox-group {
+            margin: 1.5rem 0;
+        }
+        
+    
+        button[type="submit"] {
+            background-color: #eee;
+            color: #6b6a6a;
+            padding: 10px 20px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            cursor: pointer;
+            font-weight: bold;
+            width: 100%;
+            
+        }
+        
+        button[type="submit"]:hover {
+            background-color: #ddd;
+        }
+        
+       
+        .employees h2 {
+            text-align: center;
+            margin-bottom: 2rem;
+            border-top: 1px solid #ccc;
+            padding-top: 2rem;
+        }
+        
+        .employee-grid {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            gap: 2rem;
+            max-width: 1000px;
+            margin: 0 auto 3rem auto;
+        }
+        
+        .employee-grid figure {
+            text-align: center;
+            margin: 0;
+        }
+        
+        .employee-grid img {
+            border-radius: 50%; 
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            margin-bottom: 1rem;
+            background-color: #ddd;
+        }
+        
+       
+        }    

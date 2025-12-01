@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Poll-form.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <h1>WDD 130 | HTML Form - User Poll</h1>
+    </header>
+    <main>
+        <fieldset>
+            <legend for="">Contact Information</legend>
+
+
+            <form action="">
+                <div class='form-item column2'>
+                    <label for="fullname">Full Name:</label>
+                    <input type="text" id='fullname' name='fullname' placeholder='Enter Your Username'>
+                </div>
+
+                <br>
+                <div class='form-item column2'>
+                    <label for="useremail">User Email:</label>
+                    <input type="email" name='Email' placeholder='Enter Your User email' required>
+                </div>
+            </form>
+            <br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Quetions</legend>
+
+            <div class='column1'>
+                <label for="browser">What is your favorite browser?</label>
+                <select name="browser" id="browser">
+                    <option value="1">Chrome</option>
+                    <option value="2">Safari</option>
+                    <option value="3">Edge</option>
+                    <option value="4">Brave</option>
+                    <option value="5">Other</option>
+                </select><br><br>
+                <label for="pet">Do you have a household Pet?</label>
+                <input type="checkbox" id='pet' name='pet'><br><br>
+                <label for="feedback">List the places you have lived.</label>
+                <br> <textarea type="text" placeholder='' id='feedback' name='feedback' rows='4'></textarea><br>
+            </div>
+        </fieldset>
+        <button>Sumbit Poll</button>
+    </main>
+    <footer>
+        <p> &copy;2025 | HTML Form - User Poll Activity | John Joshua</p>
+    </footer>
+</body>
+
+</html>
